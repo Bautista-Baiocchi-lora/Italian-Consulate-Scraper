@@ -1,0 +1,28 @@
+version: "3.8"
+
+networks:
+  web:
+    external: true
+    driver: bridge
+
+services:
+  selenium:
+    image: selenium/standalone-firefox
+    shm_size: 2g
+    hostname: selenium
+    privileged: true
+    networks:
+      - web
+  scraper:
+    image: italian-scraper
+    networks:
+      - web
+    depends_on:
+      - selenium
+    #   - messenger
+  # messenger:
+  #  image: italian-messenger
+  #  ports:
+  #   - "3000:3000"
+  # networks:
+  #  - web

@@ -1,0 +1,16 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "Whatsapp messenger for italian passport scraper",
+  "main": "messenger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bautista Baiocchi lora",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^7.0.0",
+    "venom-bot": "^2.2.3"
+  }
+}
