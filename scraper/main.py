@@ -13,7 +13,7 @@ import datetime
 
 home_url = 'https://prenotaonline.esteri.it/login.aspx?cidsede=100076&returnUrl=//'
 email = 'marisabaiocchi@yahoo.com'
-password = 'Marisa25'
+password = 'xxxx xxxxx'
 anti_captcha_key = '4a4f81601e0acb667fc2062c06e014a5'
 captcha_create_task_url = 'http://api.anti-captcha.com/createTask'
 get_captcha_task_result_url = 'https://api.anti-captcha.com/getTaskResult'
