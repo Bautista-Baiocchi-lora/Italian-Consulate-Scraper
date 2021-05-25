@@ -30,7 +30,7 @@ await venom.create(session='italian messenger', options={
 .then(client => client.sendText(
   '5491131747385@c.us',
 `TURNO(s) DISPONIBLE: \n${req.body.available.join('\n')}\n
-Datos para ingresar a Cuenta:\nmarisabaiocchi@yahoo.com\nMarisa25\n
+Datos para ingresar a Cuenta:\nEMAIL\nPASS\n
 https://prenotaonline.esteri.it/login.aspx?cidsede=100076&returnUrl=%2f%2f\n`
 )
 .then((result) => {
